@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>DH Foods</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Playball&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="favicon.png">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar start -->
+        <div class="container-fluid nav-bar">
+            <div class="container">
+                <nav class="navbar navbar-light navbar-expand-lg py-4">
+                    <a href="index.html" class="navbar-brand">
+                        <h1 class="text-primary fw-bold mb-0" style="color:#225336">DH FOODS</h1>
+                    </a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="" class="nav-item nav-link">About</a>
+                            <a href="" class="nav-item nav-link">Services</a>
+                            <a href="" class="nav-item nav-link">Menu</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                                <div class="dropdown-menu bg-light">
+                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                </div>
+                            </div>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Games</a>
+                                <div class="dropdown-menu bg-light">
+                                    <a href="htmlgame/2048.html" class="dropdown-item">2048</a>
+                                </div>
+                            </div>
+                            <a href="" class="nav-item nav-link">Contact</a>
+                            <a href="" class="nav-item nav-link">Chatbot</a>
+                        </div>
+                        <button class="btn-search btn btn-primary btn-md-square me-4 rounded-circle d-none d-lg-inline-flex  text-light" style="background:#225336" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button>
+                        <a href="https://dhfoods.com.vn" class="btn btn-primary py-2 px-4 d-none d-xl-inline-block rounded-pill  text-light" style="background:#225336">Official Website</a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Search by keyword</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control bg-transparent p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+
+        <!-- Hero Start -->
+        <div class="container-fluid bg-light py-6 my-6 mt-0">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-7 col-md-12">
+                        <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-dark rounded-pill px-4 py-1 mb-4 animated bounceInDown">Welcome to Dh Foods</small>
+                        <h1 class="display-1 mb-4 animated bounceInDown"><span class="text-primary" style="color:#225336">Dh Foods</span> Website</h1>
+                        <a href="https://shopee.vn/dhfoods" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 me-4 animated bounceInLeft text-light" style="background:#225336">Đặt hàng</a>
+                        <a href="https://dhfoods.com.vn" class="btn btn-primary border-0 rounded-pill py-3 px-4 px-md-5 animated bounceInLeft text-light" style="background:#225336">Know More</a>
+                    </div>
+                    <div class="col-lg-5 col-md-12">
+                        <img src="img/hero.png" class="img-fluid rounded animated zoomIn" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+        <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.89/build/spline-viewer.js"></script>
+        <spline-viewer url="https://prod.spline.design/aoKUcQslV72OYvsF/scene.splinecode"></spline-viewer>
+
+        <div class="container-fluid py-6" style="height: 1000px; background-image: url('img/NuocSotMeHatDeRang.png'); background-size: cover; background-position: center;">
+        </div>
+
+        <!-- About Satrt -->
+        <div class="container-fluid py-6">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5 wow bounceInUp" data-wow-delay="0.1s">
+                        <img src="img/about.jpg" class="img-fluid rounded" alt="">
+                    </div>
+                    <div class="col-lg-7 wow bounceInUp" data-wow-delay="0.3s">
+                        <small class="d-inline-block fw-bold text-light text-uppercase bg-light border border-dark rounded-pill px-4 py-1 mb-3" style="background:#225336">About Us</small>
+                        <h1 class="display-5 mb-4">Dh Foods</h1>
+                        <p class="mb-4">Tại Dh Foods chúng tôi tin rằng, những gia vị chất lượng sẽ làm cho các bữa ăn ngon miệng và mọi người cảm thấy hạnh phúc hơn. Những gia vị của Dh Foods cũng là những đặc sản mang nét văn hóa đặc trưng của các vùng miền Việt Nam.<br>
+                            "Philip Kotler – cha đẻ của lý thuyết tiếp thị hiện đại đã khuyến khích: “Việt Nam hãy là nhà bếp của thế giới”. Và Dh Foods mong muốn trở thành góc gia vị trong nhà bếp đó."<br>(Chủ tịch HĐQT kiêm TGĐ Dh Foods - Nguyễn Trung Dũng)
+                        </p>
+                        <div class="row g-4 text-dark mb-5">
+                            <div class="col-sm-6">
+                                <i class="fas fa-share text-primary me-2" style="color:#225336"></i>Không Màu Tổng Hợp
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fas fa-share text-primary me-2" style="color:#225336"></i>Không Chất Bảo Quản Nhân Tạo
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fas fa-share text-primary me-2" style="color:#225336"></i>Không Tạp Chất
+                            </div>
+                        </div>
+                        <a href="https://dhfoods.com.vn/vn/gioi-thieu-dh-foods.html" class="btn btn-primary text-light py-3 px-5 rounded-pill" style="background:#225336">About Us<i class="fas fa-arrow-right ps-2"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Fact Start-->
+        <div class="container-fluid faqt py-6">
+            <div class="container">
+                <div class="row justify-content-center align-items-center" style="min-height: 300px;"> <!-- căn giữa dọc + ngang -->
+                    <div class="col-lg-8 wow bounceInUp" data-wow-delay="0.1s">
+                        <div class="video">
+                            <button type="button" class="btn btn-play" data-bs-toggle="modal" data-src="img/video.mp4" data-bs-target="#videoModal">
+                                <span></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Modal Video -->
+        <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Dh Foods || Mang tinh túy Gia vị vùng miền đến căn bếp của mọi nhà</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- 16:9 aspect ratio -->
+                        <div class="ratio ratio-16x9">
+                            <video class="video-fluid" loop controls>
+                                <source src="img/video.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fact End -->
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid py-6">
+            <div class="container">
+                <div class="text-center wow bounceInUp" data-wow-delay="0.1s">
+                    <small class="d-inline-block fw-bold text-dark text-uppercase bg-light border border-dark rounded-pill px-4 py-1 mb-3">Testimonial</small>
+                    <h1 class="display-5 mb-5">What Our Customers says!</h1>
+                </div>
+                <div class="owl-carousel owl-theme testimonial-carousel testimonial-carousel-1 mb-4 wow bounceInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-1.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Nguyễn Văn Bảo Phúc</h4>
+                                <p class="m-0">DUE Student</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Ước gì tôi có 11 ngón tay để đánh giá món nước sốt me hạt dẻ rang này.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-2.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Đặng Phước Tài</h4>
+                                <p class="m-0">DUE Student</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Quá ngon, bổ, rẻ, chất lượng tuyệt vời!!!</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-3.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Trần Ngọc Tiến</h4>
+                                <p class="m-0">Student</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Sốt ngon **. Chấm 1 cái là sướng ****.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-4.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Phạm Văn Triều</h4>
+                                <p class="m-0">DUT Student</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Nước sốt ngon quá làm tôi phải từ Bách Khoa sang :))</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="owl-carousel testimonial-carousel testimonial-carousel-2 wow bounceInUp" data-wow-delay="0.3s">
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-5.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Trần Quang Khánh</h4>
+                                <p class="m-0">DUT Student</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">It's finger lickin good.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-2.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Đặng Phước Tài</h4>
+                                <p class="m-0">DUE Student</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Quá ngon, bổ, rẻ, chất lượng tuyệt vời!!!</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-3.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Trần Ngọc Tiến</h4>
+                                <p class="m-0">Student</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Sốt ngon **. Chấm 1 cái là sướng ****.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded bg-light">
+                        <div class="d-flex mb-3">
+                            <img src="img/testimonial-4.jpg" class="img-fluid rounded-circle flex-shrink-0" alt="">
+                            <div class="position-absolute" style="top: 15px; right: 20px;">
+                                <i class="fa fa-quote-right fa-2x"></i>
+                            </div>
+                            <div class="ps-3 my-auto">
+                                <h4 class="mb-0">Phạm Văn Triều</h4>
+                                <p class="m-0">DUT Student</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <div class="d-flex">
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                                <i class="fas fa-star text-primary"></i>
+                            </div>
+                            <p class="fs-5 m-0 pt-3">Nước sốt ngon quá làm tôi phải từ Bách Khoa sang :))</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-6 my-6 mb-0 bg-light wow bounceInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h1 class="text-primary" style="color:#225336">Dh Foods</h1>
+                            <p class="lh-lg mb-4">Luôn Tự Hào Gia Vị Việt!.</p>
+                            <div class="footer-icon d-flex">
+                                <a class="btn btn-primary btn-sm-square me-2 rounded-circle" style="background:#225336" href="https://www.facebook.com/DHFoods.com.vn/"><i class="fab fa-facebook-f" style="color:white"></i></a>
+                                <a class="btn btn-primary btn-sm-square me-2 rounded-circle" style="background:#225336" href="https://www.youtube.com/user/userGiaviDhfoods"><i class="fab fa-youtube" style="color:white" aria-hidden="true"></i></a>
+                                <a class="btn btn-primary btn-sm-square me-2 rounded-circle" style="background:#225336" href="https://shopee.vn/dhfoods"><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 48 48">
+                                    <path fill="#ef4e2d" d="M36.683,43H11.317c-2.136,0-3.896-1.679-3.996-3.813l-1.272-27.14C6.022,11.477,6.477,11,7.048,11 h33.904c0.571,0,1.026,0.477,0.999,1.047l-1.272,27.14C40.579,41.321,38.819,43,36.683,43z"></path><path d="M24.066,16.073c-4.029,0-7.067,2.596-7.067,6.039c0,3.955,3.624,5.28,6.271,6.247 c3.21,1.173,4.278,1.83,4.278,3.41c0,1.255-1.653,2.314-3.609,2.314c-2.463,0-4.673-1.864-4.695-1.882l-0.104-0.097 c-0.186-0.171-0.428-0.264-0.677-0.264c-0.038,0-0.077,0.002-0.115,0.007c-0.289,0.034-0.549,0.191-0.712,0.432l-1.046,1.542 c-0.291,0.429-0.206,1.008,0.195,1.336l0.106,0.087c0.78,0.631,3.582,2.683,7.049,2.683c4.18,0,7.454-2.705,7.454-6.158 c0-4.535-3.93-5.971-6.8-7.019c-2.767-1.011-3.749-1.562-3.749-2.638c0-1.272,1.356-2.195,3.224-2.195 c1.464,0,2.767,0.584,3.413,0.933c0.089,0.048,0.411,0.241,0.59,0.361l0.13,0.087c0.166,0.111,0.36,0.169,0.556,0.169 c0.071,0,0.143-0.008,0.213-0.023c0.266-0.058,0.496-0.222,0.639-0.453l0.958-1.558c0.283-0.461,0.149-1.064-0.304-1.36 l-0.157-0.103C29.267,17.404,26.979,16.073,24.066,16.073L24.066,16.073z" opacity=".05"></path><path d="M24.066,16.573c-3.744,0-6.567,2.381-6.567,5.539c0,3.606,3.295,4.81,5.942,5.778 c3.132,1.145,4.607,1.9,4.607,3.88c0,1.552-1.843,2.814-4.109,2.814c-2.664,0-4.997-1.983-5.021-2.003L18.8,32.472 c-0.093-0.085-0.214-0.132-0.338-0.132c-0.019,0-0.038,0.001-0.058,0.003c-0.144,0.017-0.275,0.096-0.356,0.216l-1.046,1.542 c-0.145,0.214-0.103,0.504,0.098,0.668l0.106,0.087c0.746,0.604,3.43,2.571,6.732,2.571c3.9,0,6.954-2.485,6.954-5.658 c0-4.185-3.589-5.496-6.472-6.55c-2.772-1.013-4.078-1.65-4.078-3.107c0-1.561,1.566-2.695,3.724-2.695 c1.574,0,2.963,0.622,3.65,0.992c0.11,0.059,0.443,0.26,0.631,0.385l0.13,0.087c0.083,0.056,0.18,0.084,0.278,0.084 c0.036,0,0.071-0.004,0.107-0.011c0.133-0.029,0.248-0.111,0.319-0.227l0.958-1.558c0.142-0.23,0.074-0.532-0.152-0.68 l-0.157-0.103C29.026,17.844,26.841,16.573,24.066,16.573L24.066,16.573z" opacity=".07"></path><path fill="#ef4e2d" d="M32.5,11.5h-2C30.5,7.364,27.584,4,24,4s-6.5,3.364-6.5,7.5h-2C15.5,6.262,19.313,2,24,2 S32.5,6.262,32.5,11.5z"></path><path fill="#fff" d="M24.248,25.688c-2.741-1.002-4.405-1.743-4.405-3.577c0-1.851,1.776-3.195,4.224-3.195 c1.685,0,3.159,0.66,3.888,1.052c0.124,0.067,0.474,0.277,0.672,0.41l0.13,0.087l0.958-1.558l-0.157-0.103 c-0.772-0.521-2.854-1.733-5.49-1.733c-3.459,0-6.067,2.166-6.067,5.039c0,3.257,2.983,4.347,5.615,5.309 c3.07,1.122,4.934,1.975,4.934,4.349c0,1.828-2.067,3.314-4.609,3.314c-2.864,0-5.326-2.105-5.349-2.125l-0.128-0.118l-1.046,1.542 l0.106,0.087c0.712,0.577,3.276,2.458,6.416,2.458c3.619,0,6.454-2.266,6.454-5.158C30.393,27.933,27.128,26.741,24.248,25.688z"></path>
+                                    </svg></a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-4">Foods</h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <a class="text-body mb-3"><i class="fa fa-check text-primary me-2"></i>Bổ dưỡng</a>
+                                <a class="text-body mb-3"><i class="fa fa-check text-primary me-2"></i>Tươi ngon</a>
+                                <a class="text-body mb-3"><i class="fa fa-check text-primary me-2"></i>Chất lượng</a>
+                                <a class="text-body mb-3"><i class="fa fa-check text-primary me-2"></i>Giá cả phải chăng</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-4">Contact Us</h4>
+                            <div class="d-flex flex-column align-items-start">
+                                <p><i class="fa fa-map-marker-alt text-primary me-2"></i> Lầu 9, 728-730 Võ Văn Kiệt, Phường 01, Quận 5, Thành phố Hồ Chí Minh</p>
+                                <p><i class="fa fa-phone-alt text-primary me-2"></i> (+84) 028 3922 5940</p>
+                                <p><i class="fas fa-envelope text-primary me-2"></i> uyenvtt@dhfoods.com.vn hoặc xoanbk@dhfoods.com.vn</p>
+                                <p><i class="fa fa-clock text-primary me-2"></i> 24/7 Hours Service</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-4">Social Gallery</h4>
+                            <div class="row g-2">
+                                <div class="col-4">
+                                     <img src="img/menu-01.jpg" class="img-fluid rounded-circle border border-dark p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/menu-02.jpg" class="img-fluid rounded-circle border border-dark p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/menu-03.jpg" class="img-fluid rounded-circle border border-dark p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/menu-04.jpg" class="img-fluid rounded-circle border border-dark p-2" alt="">
+                                </div>
+                                <div class="col-4">
+                                     <img src="img/menu-05.jpg" class="img-fluid rounded-circle border border-dark p-2" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright bg-dark py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <span class="text-light"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Dh Foods</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 my-auto text-center text-md-end text-white">
+                        Designed By <a class="border-bottom" href="https://www.facebook.com/toannguyen.8640/">nemodev</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-md-square btn-primary rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
